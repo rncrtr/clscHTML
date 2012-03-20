@@ -1,0 +1,367 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"the_post_",
+				"the_post_thumbnail"
+			],
+			[
+				"the_th",
+				"the_post_thumbnail"
+			],
+			[
+				"wp_rese",
+				"wp_reset_query"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-need-help.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-hero.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-org-acct.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/org-acct.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/org-register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/need-help.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/want-to-help.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/css/1140.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/app/View/Layouts/default.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/deleteLocations.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/csl_helpers.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/templates/add_locations.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/css/1140.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page-menu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/data-xml.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/functions.sl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/database-info.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/plugins/store-locator-le/core/view-locations.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page-location-detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page-our-food.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/loop-recipe-detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page-recipe-detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/category-recipes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/loop-recipe-grid.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/single.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/category-recipe-detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/single-recipe.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/single-normal.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/single-post.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/category-lunch-dinner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/favicon.ico",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/css/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page-menu-section.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/sidebar-seasonal.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/loop-no-title.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/loop.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/nav-menu-sections.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/nav-top.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/pages/menu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/page-home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/constellation/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/working-html/index.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/working-html/blueimp/server/php/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/pages/location-detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-includes/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/header/header-default.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/loop/loop-seasonal.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/working-html/assets/main/css/structure.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/assets/main/css/utility.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/working-html/assets/main/css/utility.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/page-location-detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/content/cat-breakfast.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/content/menu-section.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/loop/loop-default.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/misc/nav-left.php",
+		"/Users/ryan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ryan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ryan/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/pages/menu-section.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/loop/loop-page-menu-section.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/loop/loop-dishes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/italiannis/wp-content/themes/italiannis/content/cat-dishes.php"
+	],
+	"find":
+	{
+		"height": 120.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"add_this_addy",
+			";}	",
+			"')): ?>",
+			"featured",
+			"execute_and_output_template",
+			",{",
+			")",
+			"		<",
+			"'); ?>/",
+			"bottom",
+			"0px",
+			"height",
+			"error",
+			"{}",
+			"220px",
+			"\n				<li><img src=\"assets/main/img/flags/philippines.jpg\" /></li>\n				<li><img src=\"assets/main/img/flags/mexico.jpg\" /></li>",
+			"<li><img src=\"assets/main/img/flags/guatemala.jpg\" /></li>\n				<li><img src=\"assets/main/img/flags/philippines.jpg\" /></li>\n				<li><img src=\"assets/main/img/flags/mexico.jpg\" /></li>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 3615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								987,
+								987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 18.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"wp-content/themes/italiannis/loop/loop-seasonal.php"
+			],
+			[
+				"functio",
+				"wp-includes/functions.php"
+			],
+			[
+				"header-def",
+				"wp-content/themes/italiannis/header/header-default.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/clsc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true
+}
