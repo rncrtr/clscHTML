@@ -15,9 +15,7 @@
 				</div>
 				<div class="entry-meta-tags">
 					<ul class="entry-tags">
-						<li class="pray"><a href="/category/pray">pray</a></li>
-						<li class="event"><a href="/category/event">event</a></li>
-						<li class="housing"><a href="/category/housing">housing</a></li>
+						<li class="action"><a href="/category/action">action</a></li>
 
 					</ul>
 				</div>

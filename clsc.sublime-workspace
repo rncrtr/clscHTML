@@ -23,7 +23,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 3615,
+				"buffer_size": 6287,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +31,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1109,
+				"buffer_size": 1093,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,55 @@
 			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 227,
+				"buffer_size": 1909,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-org.php",
+			"settings":
+			{
+				"buffer_size": 1388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-need-help.php",
+			"settings":
+			{
+				"buffer_size": 2150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "loop.php",
+			"settings":
+			{
+				"buffer_size": 1553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ajax.php",
+			"settings":
+			{
+				"buffer_size": 26,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-about.php",
+			"settings":
+			{
+				"buffer_size": 687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-help-out.php",
+			"settings":
+			{
+				"buffer_size": 2627,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,6 +124,9 @@
 	},
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/css/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/css/ie.css",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/index.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/footer.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/header.php",
@@ -83,7 +134,6 @@
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-hero.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-org-acct.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-login.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/page-register.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/org-acct.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/login.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/_testwww/clsc/org-register.php",
@@ -171,6 +221,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"5px",
+			"px",
 			"add_this_addy",
 			";}	",
 			"')): ?>",
@@ -205,7 +257,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -213,23 +265,26 @@
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 3615,
+						"buffer_size": 6287,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								987,
-								987
+								3485,
+								3485
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 69.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -239,23 +294,25 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 1109,
+						"buffer_size": 1093,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								514,
-								514
+								1023,
+								1023
 							]
 						],
 						"settings":
 						{
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 18.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -266,23 +323,199 @@
 					"file": "footer.php",
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 1909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								162,
-								162
+								1909,
+								1909
 							]
 						],
 						"settings":
 						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "page-org.php",
+					"settings":
+					{
+						"buffer_size": 1388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1148,
+								1148
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "page-need-help.php",
+					"settings":
+					{
+						"buffer_size": 2150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								566
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "loop.php",
+					"settings":
+					{
+						"buffer_size": 1553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ajax.php",
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "page-about.php",
+					"settings":
+					{
+						"buffer_size": 687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								687
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "page-help-out.php",
+					"settings":
+					{
+						"buffer_size": 2627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -321,6 +554,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"replace":
 	{
 		"height": 0.0

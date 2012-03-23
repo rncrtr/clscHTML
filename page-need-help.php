@@ -11,9 +11,9 @@
 <br />
 <div class="row">
 	<div class="twelvecol last">
-		<input type="text" class="prompt" id="need-when" value="when (this week, 5/23, etc.)" />
+		<input type="text" class="prompt" id="need-when" value="when (this week, 5/23/12, etc.)" />
 		&nbsp;and&nbsp;
-		<input type="text" class="prompt" id="need-where" value="where (denver)" />
+		<input type="text" class="prompt" id="need-where" value="where (zipcode)" />
 	</div><!--/col-->
 </div><!--/row-->
 <br />

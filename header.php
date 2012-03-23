@@ -29,7 +29,7 @@ $navy = '#00137F';
 		.divide{border-top: 1px solid #CCCCCC; margin-top: 10px; margin-bottom: 10px;}
 		.prompt{font-size: 11px; color: #696969; font-style: italic;}
 		.fakelink{color: #0094FF; text-decoration: underline; cursor: pointer;}
-	
+		
 	/* buttons */	
 		.btn-left{float: left; background: url('img/btn-left.png') no-repeat; height: 38px; width: 5px;}
 		.btn-middle{float: left; background: url('img/btn-middle.png') repeat-x; height: 38px; padding: 8px 10px 0px 10px; color: #FFF; font-weight: bold; cursor: pointer;}
@@ -68,13 +68,13 @@ $navy = '#00137F';
 				#location-change{float: right;}
 				#posts{margin-top: 10px;}
 				#help-out-posts ul{list-style: none;}
-				.entry{font-size: 16px; line-spacing: 1.5em; margin-top: 20px;}
+				.entry{font-size: 16px; line-spacing: 1.5em; margin-top: 30px;}
 				.entry-alt{font-size: 16px; line-spacing: 1.5em; margin-top: 0px;}
 				h2.entry-title{margin-bottom: 0px; font-size: 24px; color: <?=$navy?>;}
 				
 				.entry-main{float: left; width: 700px; padding-right: 20px; border-right: 1px solid #CCCCCC;}
 				.entry-main-alt{float: left; width: 940px; padding-right: 20px;}
-				.entry-meta{margin-top: -10px;}
+				.entry-meta{margin-top: 0px;}
 				.entry-dates{}
 				
 				.entry-tags{margin-top: 10px;}

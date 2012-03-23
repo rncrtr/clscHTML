@@ -4,11 +4,11 @@
 		<ul id="nav-filters">
 			<li>filter tags:</li>
 			<li class="all"><a href="/">all</a></li>
-			<li class="pray"><a href="/category/pray">pray</a></li>
+			<li class="action"><a href="/category/action">action</a></li>
+			<li class="stuff"><a href="/category/stuff">stuff</a></li>
+			<li class="prayer"><a href="/category/prayer">prayer</a></li>
 			<li class="financial"><a href="/category/financial">financial</a></li>
-			<li class="event"><a href="/category/event">event</a></li>
-			<li class="employment"><a href="/category/employment">employment</a></li>
-			<li class="housing"><a href="/category/housing">housing</a></li>
+			<li class="events"><a href="/category/events">events</a></li>
 			<li class="friendship"><a href="/category/friendship">friendship</a></li>
 		</ul>
 	</div>
