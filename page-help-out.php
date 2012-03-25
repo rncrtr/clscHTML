@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
-<div class="row" id="help-out-posts">
-	<h2 class="entry-title">Want to help your fellow earthlings?</h2>
-	<div class="entry-content">Like the clsc facebook page in your area to find out what's going on near you! If you don't see your city listed, let us know and we'll consider adding it next.</div><br />
-	<div class="threecol">
+<div class="span-24 last" id="help-out">
+	<h2>Want to help your fellow earthlings?</h2>
+	<p>Like the clsc facebook page in your area to find out what's going on near you! If you don't see your city listed, let us know and we'll consider adding it next.</p>
+	<div class="span-6">
 		<ul id="city-col1">
 			<li><a href="http://facebook.com/clsc">New York, NY</a></li>
 			<li><a href="http://facebook.com/clsc">Los Angeles, CA</a></li>
@@ -14,7 +14,7 @@
 			<li><a href="http://facebook.com/clsc">San Diego, CA</a></li>
 		</ul>
 	</div><!--/col-->
-	<div class="threecol">
+	<div class="span-6">
 		<ul id="city-col2">
 			<li><a href="http://facebook.com/clsc">Dallas, TX</a></li>
 			<li><a href="http://facebook.com/clsc">San Jose, CA</a></li>
@@ -26,7 +26,7 @@
 			<li><a href="http://facebook.com/clsc">Fort Worth, TX</a></li>
 		</ul>
 	</div><!--/col-->
-	<div class="threecol">
+	<div class="span-6">
 		<ul id="city-col3">
 			<li><a href="http://facebook.com/clsc">Charlotte, NC</a></li>
 			<li><a href="http://facebook.com/clsc">Detroit, MI</a></li>
@@ -37,7 +37,7 @@
 			<li><a href="http://facebook.com/clsc">Seattle, WA</a></li>
 		</ul>
 	</div><!--/col-->
-	<div class="threecol last">
+	<div class="span-6 last">
 		<ul id="city-col4">
 			<li><a href="http://facebook.com/clsc">Washington D.C.</a></li>
 			<li><a href="http://facebook.com/clsc">Nashville, TN</a></li>

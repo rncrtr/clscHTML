@@ -1,4 +1,5 @@
 <?php
+include('functions.php');
 /* styles */
 	$font_title = "font-family: 'Open Sans Condensed', sans-serif;";
 	$font_text = "font-family: tahoma, arial, sans-serif;"; //"font-family: 'Open Sans', sans-serif;";
@@ -11,25 +12,86 @@ $navy = '#00137F';
 <!DOCTYPE html>
 <head>
 	<title>clsc</title>
-	<link rel="stylesheet" type="text/css" href="css/1140.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-	<style>
-	/* html elements */
-		html{}
-		body{<?=$font_text?> font-size: .85em;}
-		h1,h2,h3,h4,h5{<?=$font_title?>}
-		a{color: #0094FF;}
-		a:hover{background: #0094FF; color: #FFFFFF;}
+	<!--<link rel="stylesheet" type="text/css" href="css/1140.css">-->
 	
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen,projection">
+	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen,projection">
+	<link rel="stylesheet" href="css/callouts.css" type="text/css" media="screen,projection">
+	<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen,projection"><![endif]-->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="https://js.stripe.com/v1/"></script>
+	<script type="text/javascript">
+    // this identifies your website in the createToken call below
+    Stripe.setPublishableKey('YOUR_PUBLISHABLE_KEY');
+    ...
+</script>
+	<style>
+	@font-face {
+	  font-family: 'Open Sans Condensed';
+	  font-style: normal;
+	  font-weight: 700;
+	  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url('type/gk5FxslNkTTHtojXrkp-xM6Eyu0BCqAfob_z3hhzRFzr7w4p9aSvGirXi6XmeXNA.woff') format('woff');
+	}
+	/* html elements */
+	h1,h2,h3,h4,h5{<?=$font_title?> color: #00137F;}
+	a{color: #0094FF;}
+	a:hover{background: #0094FF; color: #FFFFFF;}
+	textarea{margin-bottom: -5px;}
+	label{color: #00137F;}
 	/* class */
+		.showgrid div,.showgrid ul,.showgrid h3{border: 0px solid #0094FF;}
+		.hide{display: none;}
+		.show{display: block;}
 		.clear{clear: both;}
 		.left{text-align: left;}
 		.center{text-align: center;}
-		.right{text-align: right;}
+		.right{float: right; !important}
 		.divide{border-top: 1px solid #CCCCCC; margin-top: 10px; margin-bottom: 10px;}
-		.prompt{font-size: 11px; color: #696969; font-style: italic;}
+		.prompt{font-size: 11px; color: #696969; font-style: italic; display: block;}
+		#need-form .inputvalue{font-size: 16px; color: #696969; font-style: italic;}
 		.fakelink{color: #0094FF; text-decoration: underline; cursor: pointer;}
-		
+
+		#header{padding-top: 10px;}
+		#site-title h1{margin-top: 5px; color: #00137F; <?=$font_title?>}
+		#description{margin-top: -20px;}
+		#login-register{float: right; }
+			#nav-login{list-style: none; margin-right: 0px;}
+			#nav-login li{padding: 5px 0px 5px 10px;}
+		#tagline{padding: 10px 0px 0px 0px;}
+		#nav-main{list-style: none; padding-top: 0px;}
+			#nav-main li a{<?=$rounded5?> background: #00CC00; color: #FFFFFF; font-size: 16px; padding: 3px 10px; margin: 0px 10px; float: left; width: 15%; text-align: center; text-decoration: none;  border-right: 0px solid #CCCCCC;}
+			#nav-main li a:hover{background: #0094FF; color: #FFFFFF;}
+			#nav-main li a.last{border-right: 0px;}
+
+		#nav-filters{list-style: none; margin-top: 0px;}
+			#nav-filters li{float: left; margin: 5px 0px 5px 0px;}
+			#nav-filters li a{ color: #00137F; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
+			#nav-filters li a:hover{ color: #FFFFFF; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
+			#nav-filters li a.active{border: 1px solid #0094FF; color: #0094FF;}
+			#nav-filters li a.active:hover{color: #FFFFFF;}
+		#need-tags{margin-top: 20px;}
+		#need-filters{list-style: none; margin-top: 5px; padding: 0px 0px 0px 10px; margin-bottom: 0px;}
+			#need-filters li{float: left; margin: 5px 0px 5px 0px;}
+			#need-filters li a{ color: #00137F; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
+			#need-filters li a:hover{ color: #FFFFFF; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
+			#need-filters li a.active{border: 1px solid #0094FF; color: #0094FF;}
+			#need-filters li a.active:hover{color: #FFFFFF;}
+
+		article.entry{margin-top: 20px;}
+			.entry h2{color: #00137F; <?=$font_title?>}
+			.entry-title{margin-bottom: 0px;}
+			.entry-admin-controls{margin-top: 5px;}
+			.entry-admin-controls span.fakelink{padding: 0px 5px 0px 0px;}
+			.entry-contact h3{margin-bottom: 0px; margin-top: 38px; color: #00137F; <?=$font_title?>}
+			.entry-main p{margin-bottom: 5px;}
+			.entry-tags{list-style: none; margin-top: 0px;}
+			.entry-tags h3{font-size: 14px; color: #00137F; margin-right: 10px;}
+			.entry-tags li{float: left; margin: 5px 0px 5px 0px;}
+			.entry-tags li a{ color: <?=$navy?>; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
+			.entry-tags li a:hover{ color: #FFFFFF; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
+			.entry-tags li a.active{border: 1px solid #0094FF; color: #0094FF;}
+			.entry-tags li a.active:hover{color: #FFFFFF;}
 	/* buttons */	
 		.btn-left{float: left; background: url('img/btn-left.png') no-repeat; height: 38px; width: 5px;}
 		.btn-middle{float: left; background: url('img/btn-middle.png') repeat-x; height: 38px; padding: 8px 10px 0px 10px; color: #FFF; font-weight: bold; cursor: pointer;}
@@ -38,109 +100,59 @@ $navy = '#00137F';
 		.btn-sm-left{float: left; background: url('img/btn-left.png') no-repeat; background-size: 5px 25px;  height: 25px; width: 5px;}
 		.btn-sm-middle{float: left; background: url('img/btn-middle.png') repeat-x; background-size: 1px 25px;  height: 25px; padding: 3px 5px 0px 5px; color: #FFF; font-weight: bold; cursor: pointer;}
 		.btn-sm-right{float: left; background: url('img/btn-right.png') no-repeat; background-size: 6px 25px; height: 25px; width: 6px;}
-	/* colors */
-		.ltblue{color: <?=$ltblue?>;}
-		.navy{color: <?=$navy?>;}
-	/* id */
-		#page{}
-			#header{padding-top: 10px; border: 0px solid blue;}
-				#logo{float: left;}
-				#site-title{float: left; font-size: 24px; margin-top: -10px; margin-left: 10px; color: #00137F;}
-				#description{margin-left: 72px; margin-top: -20px; width: 200px;}
-				#login-register{}
-				#nav-login{list-style: none; float: right;}
-				#nav-login li{float: left; padding: 3px 0px 3px 10px;}
-				#tagline{float: right;}
-			#nav-main{list-style: none; padding-top: 0px; margin: 0 10%;}
-				#nav-main li a{float: left; text-align: center; text-decoration: none; width: 19%; padding: 3px 0px; border-right: 0px solid #CCCCCC;}
-				#nav-main li a:hover{background: #0094FF; color: #FFFFFF;}
-				#nav-main li a.last{border-right: 0px;}
-			#content{}
-				#nav-filters{list-style: none; margin-top: 20px;}
-				#nav-filters li{float: left; margin: 5px 0px 5px 0px;}
-				#nav-filters li a{ color: <?=$navy?>; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
-				
-				#need-filters{list-style: none; margin-top: 20px;}
-				#need-filters li{float: left; margin: 5px 0px 5px 0px;}
-				#need-filters li span{ color: <?=$navy?>; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
-				
-				#location{float: right; margin-top: 20px;}
-				#location-change{float: right;}
-				#posts{margin-top: 10px;}
-				#help-out-posts ul{list-style: none;}
-				.entry{font-size: 16px; line-spacing: 1.5em; margin-top: 30px;}
-				.entry-alt{font-size: 16px; line-spacing: 1.5em; margin-top: 0px;}
-				h2.entry-title{margin-bottom: 0px; font-size: 24px; color: <?=$navy?>;}
-				
-				.entry-main{float: left; width: 700px; padding-right: 20px; border-right: 1px solid #CCCCCC;}
-				.entry-main-alt{float: left; width: 940px; padding-right: 20px;}
-				.entry-meta{margin-top: 0px;}
-				.entry-dates{}
-				
-				.entry-tags{margin-top: 10px;}
-				.entry-tags li{border: 0px solid #CCCCCC; font-size: 14px;}
-				.entry-tags{list-style: none;}
-				.entry-tags li{float: left; margin: 5px 0px 5px 0px;}
-				.entry-tags li a{ color: <?=$navy?>; text-decoration: none; border: 1px solid #CCCCCC; padding: 3px 10px; margin: 0px 5px; <?=$rounded5?>}
-				
-				.entry-actions{float: left; width: 180px;  }
-				.entry-actions h3{color: <?=$navy?>; margin-top: 3px; margin-bottom: -5px;}
-				.entry-contact{padding: 0px 10px 0px 20px;}
-				.entry-donate{clear: both; width: 80px; padding: 10px 0px 0px 0px; vertical-align: middle;}
-				#need-form input{font-size: 14px; border: 0px; border-bottom: 1px solid #00137F; width: 250px;}
-				#city-col1 li,#city-col2 li,#city-col3 li,#city-col4 li{padding: 3px 0px;}
-	/* filters/tags */
-		.all a{color: #FFFFFF; border: 1px solid #0094FF;}
-		.all a:hover{color: #0094ff;}
+		
+		#need-form input[type=text]{font-size: 14px; border: 0px; border-bottom: 1px solid #00137F; width: 250px;}
+		#need-form input[type=checkbox]{margin: 0px 5px 0px 10px;}
+		#need-form h3{margin: 10px 0px 0px 0px;}
+
+		#city-col1,#city-col2,#city-col3,#city-col4{list-style: none;}
+		#city-col1 li,#city-col2 li,#city-col3 li,#city-col4 li{padding: 3px 0px;}
+
+		.footer{border-top: 1px solid #CCCCCC; color: #00137F;}
+		.footer, .push {height: 4em; clear: both;}
+		#nav-footer{list-style: none;}
+		#nav-footer li{float: left; margin: 0px 10px 0px 0px;}
 	</style>
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 <body>
-	<div id="page">
+	<div id="wrapper">
 		<div class="container">
-			<div class="row" id="header">
-				<div class="threecol">
-					<div id="logo">
-						<a href="/clsc"><img alt="clsc" src="img/asterisk60.png" /></a>
-					</div>
-					<div id="site-title">
-						<h1>clsc</h1>
-					</div>
-					<div class="clear"></div>
+			<div id="header">
+				<div class="span-2 center" id="logo">
+					<span class="fakelink" onclick="window.location.href='/clsc';"><img alt="clsc" src="img/asterisk60.png" /></span>
+				</div>
+				<!--/col-->
+				<div class="span-6" id="site-title">
+					<h1>clsc</h1>
 					<div id="description">
 						fuse. blend. unite as one.
 					</div>
-				</div><!--/col-->
-				<div class="sixcol">
-					<div class="center navy">(we're in beta, help us kick the tires!)</div>
-				</div><!--/col-->
-				<div class="threecol last">
+				</div>
+				<!--/col-->
+				<div class="span-8">
+					<?php callout("we're in beta, help us kick the tires!",'250'); ?>
+				</div>
+				<!--/col-->
+				<div class="span-6 last right">
 					<div id="login-register">
 						<ul id="nav-login">
-							<li><a href="/register">register</a></li>
-							<li><a href="/login">login</a></li>
+							<li class="left"><a href="/register">register</a></li>
+							<li class="left"><a href="/login">login</a></li>
 						</ul>
 					</div>
-					<div class="clear"></div>
-					<div id="tagline">
-						social-powered people care
-					</div>
-				</div><!--/col-->
-			</div><!--/row-->
-			<div class="row">
-				<div class="twelvecol last divide"></div>
-			</div>
-			<div class="row" id="nav">
-				<div class="twelvecol last">
+					<div class="right" id="tagline">social-powered people care</div>
+				</div>
+				<!--/col-->
+				<div class="span-24 last divide"></div>
+				<!--/col-->
+				<div class="span-24 last">
 					<ul id="nav-main">
 						<li><a href="/clsc" class="first">home</a></li>
-						<li><a href="/about">about</a></li>
-						<li><a href="/need-help">need help?</a></li>
-						<li><a href="/hero">want to help?</a></li>
-						<li><a href="/org" class="last">clsc for your org</a></li>
+						<li><a href="/clsc/page-about.php">about</a></li>
+						<li><a href="/clsc/page-need-help.php">need help?</a></li>
+						<li><a href="/clsc/page-help-out.php">want to help?</a></li>
+						<li><a href="/clsc/page-org.php" class="last">clsc for your org</a></li>
 					</ul>
-				</div><!--/col-->
-			</div><!--/row-->
-			<div class="row">
-				<div class="twelvecol last divide"></div>
-			</div><!--/row-->
+				</div>
+				<!--/col-->
+				<div class="span-24 last divide"></div>

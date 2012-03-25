@@ -1,0 +1,28 @@
+.callout {
+			top: 30px;
+			position: relative; 
+			margin: -7px 0 -28px 0px; 
+			padding: 9px 10px; 
+			background-color: #eef4f9; 
+			-moz-border-radius: 6px; 
+			-webkit-border-radius: 6px; 
+			border-radius: 6px;
+			z-index: 9;
+		}
+		.callout .notch {
+			position: absolute; 
+			top: 37px; 
+			left: 20px; 
+			margin: 0; 
+			border-top: 10px solid #eef4f9; 
+			border-left: 10px solid transparent; 
+			border-right: 10px solid transparent; 
+			border-bottom: 0; 
+			padding: 0; 
+			width: 0; 
+			height: 0; 
+			font-size: 0; 
+			line-height: 0;
+		}
+		.border-callout { border: 1px solid #c5d9e8; padding: 8px 9px; }
+		.border-callout .border-notch { border-top-color: #c5d9e8; top: 38px; }
